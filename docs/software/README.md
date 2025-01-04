@@ -81,7 +81,7 @@ CREATE TABLE  DatarecordCategory (
 ```
 
 ## RESTfull сервіс для управління даними
-
+```js
 const express = require('express');
 const mysql = require('mysql2');
 const bodyParser = require('body-parser');
@@ -203,4 +203,4 @@ app.delete(Routes.DELETE, (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
-
+```
